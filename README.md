@@ -11,7 +11,7 @@ To get started:
 1. Create a customer managed key (CMK) in AWS CMK
 2. Create an IAM user and assign it the permission to use the CMK for file encryption and decryption
 2. Update line 13 in the [Dockerfile](Dockerfile) with the CMK's ARN
-3. Update [credentials](credentials) with the credentials of the IAM user created at step 2
+3. Update [credentials](credentials) with the credentials of the IAM user created in step 2
 4. Execute:
      ```shell script
     docker build -t secure_credentials:dev . && \
