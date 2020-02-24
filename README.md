@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains code to accompany my Medium blog post titled [How To Commit Your Cloud Credentials To Version Control Systems]().
+This repository contains code to accompany my Medium blog post titled [How To Commit Your Cloud Credentials To Version Control Systems](https://medium.com/towards-artificial-intelligence/how-to-safely-commit-your-aws-credentials-to-github-21d3bf7771e7).
 It makes use of [sops](https://github.com/mozilla/sops) and AWS KMS (sops works with other cloud providers too).
 
 # Usage
